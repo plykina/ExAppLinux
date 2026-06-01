@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "hUW76VT/TBE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Пользователь\\Desktop\\универ\\ExApp\\ExApp\\ExApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.5\\microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.1.0\\microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Mvc.Core will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\Пользователь\\Desktop\\универ\\ExApp\\ExApp\\ExApp.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Пользователь\\Desktop\\универ\\ExApp\\ExApp\\ExApp.csproj",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Core",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 9.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "C:\\Users\\Пользователь\\Desktop\\универ\\ExApp\\ExApp\\ExApp.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Пользователь\\Desktop\\универ\\ExApp\\ExApp\\ExApp.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
